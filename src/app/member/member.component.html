@@ -1,0 +1,30 @@
+<p>member works!</p>
+{{ nom}}
+<table border ="1px" width="100%">
+<tr> 
+    <td>ID</td>
+    <td>Cin</td>
+    <td>Name</td>
+    <td>Type</td>
+    <td>Cv</td>
+    <td>CreatedDate</td>
+</tr>    
+<tbody>
+ <tr *ngFor="let element of dataSource">
+    <td>{{ element.id}}</td>
+    <td>{{ element.cin}}</td>
+    <td>{{ element.name}}</td>
+    <td>{{ element.type}}</td>
+    <td>{{ element.cv}}</td>
+    <td>{{ element.createdData}}</td>
+
+
+
+
+</tr>
+
+</tbody>
+
+
+
+</table>
